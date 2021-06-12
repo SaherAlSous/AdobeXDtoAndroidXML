@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="25dp" />
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/one"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/secondText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:text="@string/two"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/firstText"
+        app:layout_constraintTop_toTopOf="@+id/firstText" />
+
+    <TextView
+        android:id="@+id/thirdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/three"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/secondText"
+        app:layout_constraintTop_toTopOf="@+id/secondText" />
+
+    <TextView
+        android:id="@+id/fourthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/fourth"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/firstText" />
+
+    <TextView
+        android:id="@+id/fifthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:text="@string/fifth"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/fourthText"
+        app:layout_constraintTop_toTopOf="@+id/fourthText" />
+
+    <TextView
+        android:id="@+id/sixthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:text="@string/sixth"
+        android:textColor="@color/black_500"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/fifthText"
+        app:layout_constraintTop_toTopOf="@+id/fifthText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_settings" />
+</androidx.constraintlayout.widget.ConstraintLayout>
