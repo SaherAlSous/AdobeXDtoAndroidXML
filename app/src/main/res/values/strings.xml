@@ -7,7 +7,7 @@
     <string name="fifth">Thousand</string>
     <string name="sixth">Word</string>
     <string name="settings">Settings</string>
-    <string name="search_bar_hint">Search here...</string>
+    <string name="search_bar_hint">Search here…</string>
     <string name="strat_casino">The Strat Hotel, Casino &amp; SkyPod</string>
     <string name="sky_bar">Sky Bar at &amp; Waldorf Astoria</string>
     <string name="_4_91">4.91</string>
@@ -19,4 +19,11 @@
     <string name="_602">(602)</string>
     <string name="second_description">Top of the world is known as one of the most the most romantic restaurants in the city,  it provides an intimate dining settings paired with an extravagant view of the entire city, all encompassed in 360-degree…</string>
     <string name="more_details">More Details</string>
+    <string name="about">About</string>
+    <string name="venue_type">Venue Type</string>
+    <string name="type_of_view">Type of View</string>
+    <string name="about_text">Top of the World is known as one of the most romantic restaurants in the city. It offers an intimate dining setting paired with an extravagant view of the entire city, all encompassed in a 360-degree revolving frame. Yes, that’s right, this restaurant allows diners the opportunity to see Las Vegas in its entirety if they’re able to stay for at least 80 minutes, the time needed for one full rotation.</string>
+    <string name="venue_text">Restaurant</string>
+    <string name="type_text">It might surprise you, but this is the only revolving restaurant in Las Vegas. Located 844 feet in the air, you’re bound to get a great view of the city with its massive floor-to-ceiling windows.</string>
+    <string name="check_map">C H E C K   R O A D M A P</string>
 </resources>
