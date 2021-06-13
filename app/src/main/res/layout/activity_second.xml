@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:transitionName="background_image_transition">
 
     <ImageButton
         android:id="@+id/second_back_arrow"
